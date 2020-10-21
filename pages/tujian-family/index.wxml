@@ -1,0 +1,18 @@
+<import src="family-item/family-item-temp.wxml"/>
+<view >
+  <swiper indicator-dots="true" autoplay="true" interval="5000" width="200rpx">
+    <swiper-item><image src="/img/family/timg.jpg"></image></swiper-item>
+    <swiper-item><image src="/img/family/timg 2.jpg"></image></swiper-item>
+  </swiper>
+  <view class="tt">
+    <text>--- ----- ---</text>
+  </view>
+  <view class="pai">
+    <block  wx:for="{{familyKey}}" wx:for-item="item">
+    <view catchtap="toGenus" data-family-id="{{item.familyId}}">
+      <template is="familyItem" data="{{...item}}"></template>
+    </view>
+    </block>
+  </view>
+   
+</view>

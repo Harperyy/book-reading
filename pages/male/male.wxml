@@ -1,0 +1,24 @@
+<view>
+  <view class="tt">
+    
+    <text>--- 男生频道 ---</text>
+  </view>
+  <view class="pai">
+    <block wx:for="{{genKey}}" wx:for-item="item">
+    
+    <view class="family" catchtap="toSpecies" data-gen-id="{{item.genId}}">
+     <view class="imag">
+      <image src="{{item.genImg}}"></image>
+      <text>{{item.genName}}</text>
+     </view>
+     <view class="intro">
+      <text>{{item.intro}}</text>
+     </view>
+    </view>
+
+  </block>
+  </view>
+  
+  
+  
+</view>

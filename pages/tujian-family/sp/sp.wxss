@@ -1,0 +1,10 @@
+
+@import "../index.wxss";
+@import "../family-item/family-item-temp.wxss";
+
+.title-container{
+  
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}

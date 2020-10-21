@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/tujian-family/index",
+    "pages/welcome/welcome",
+    "pages/tujian-family/detail/detail",
+    "pages/tujian-family/species/species",
+    "pages/male/male",
+    "pages/female/female",
+    "pages/search/search",
+    "pages/tujian-family/sp/sp",
+    "pages/addBook/addBook"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#696969"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#e6e6e6",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "iconPath": "/img/图书馆.png",
+        "selectedIconPath": "/img/图书馆1.png",
+        "pagePath": "pages/tujian-family/index",
+        "text": "书城"
+      },
+      {
+        "iconPath": "/img/图书.png",
+        "selectedIconPath": "/img/图书1.png",
+        "pagePath": "pages/search/search",
+        "text": "书架"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

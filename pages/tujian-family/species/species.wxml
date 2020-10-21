@@ -1,0 +1,19 @@
+<view>
+  <view class="title-container">
+   
+    <text class="fgName"> {{genName}}</text>
+    <image src="{{genImg}}" mode="aspectFit"></image>
+  </view>
+  <view class="intro">
+    <text>{{intro}}</text>
+    
+  </view>
+  <view class="tt">
+    
+    <text>--- 正文 ---</text>
+  </view>
+  <view class="content">
+    <text>{{context}}</text>
+    
+  </view>
+</view>
